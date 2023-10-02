@@ -4,7 +4,5 @@ module.exports = {
     domains: ['cloud.appwrite.io'],
   },
   reactStrictMode: true,
-  distDir: 'dist',
-
 
   };
