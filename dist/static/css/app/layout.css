@@ -914,11 +914,12 @@ video {
 .font-normal {
   font-weight: 400;
 }
-.italic {
-  font-style: italic;
-}
 .leading-6 {
   line-height: 1.5rem;
+}
+.text-\[\#000000\] {
+  --tw-text-opacity: 1;
+  color: rgb(0 0 0 / var(--tw-text-opacity));
 }
 .text-\[\#0055D1\] {
   --tw-text-opacity: 1;
@@ -947,14 +948,6 @@ video {
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
-}
-.text-\[\#0d0d0d\] {
-  --tw-text-opacity: 1;
-  color: rgb(13 13 13 / var(--tw-text-opacity));
-}
-.text-\[\#000000\] {
-  --tw-text-opacity: 1;
-  color: rgb(0 0 0 / var(--tw-text-opacity));
 }
 .opacity-0 {
   opacity: 0;
