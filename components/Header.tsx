@@ -4,7 +4,7 @@ import React, { useEffect, useState } from "react";
 import { MagnifyingGlassIcon, UserCircleIcon } from "@heroicons/react/24/solid";
 import Avatar from "react-avatar";
 import { useBoardStore } from "@/store/BoardStore";
-import trello from "@/public/assets/Imagi.jpg"
+import trello from "@/public/assets/Imagine.jpg"
 
 import fetchSuggestion from "@/lib/fetchSuggestion";
 function Header() {
@@ -52,9 +52,9 @@ function Header() {
         <Image
           src = {trello}
           alt="Trello Logo"
-          width={300}
+          width={100}
           height={100}
-          className="w-44 md:w-56 pb-10 md:pb-0 object-contain"
+          className="pb-10 md:pb-0 object-contain rounded-md"
         />
 
         <div className="flex items-center space-x-5 flex-1  justify-end w-full">
